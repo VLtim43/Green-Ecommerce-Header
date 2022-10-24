@@ -1,0 +1,5 @@
+@import url("/src/scss/_variables.scss");
+
+.header-class {
+    @include display  ;
+}

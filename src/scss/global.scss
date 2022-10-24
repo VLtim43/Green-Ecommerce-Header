@@ -1,15 +1,17 @@
-@import 'variables';
+
+@import "variables";
+@import "components/headers" ;
 
 * {
-    font-family: 'David Libre', serif;
+    font-family: "David Libre", serif;
     font-weight: 500;
-
     margin: 0;
     padding: 0;
-}
+    color: #ffffff;
+    font-size: large;
 
-body {
     background-color: $white-green;
-}
 
+    
+  }
 
