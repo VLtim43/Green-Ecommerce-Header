@@ -7,6 +7,7 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
+  width: 100%;
   height: 3rem;
   font-family: "Gentium Book Plus", serif;
   justify-content: space-between;
@@ -15,17 +16,18 @@
   height: 7rem;
 }
 .header-class #shop-div {
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }
 .header-class #shop-div svg {
   padding: 0rem 0.5rem;
 }
 .header-class #shop-div svg:hover {
-  color: black;
+  transition: 1000ms;
+  color: rgb(157, 157, 157);
+  cursor: pointer;
 }
 .header-class #mock {
   visibility: hidden;

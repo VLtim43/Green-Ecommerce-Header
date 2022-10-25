@@ -2,6 +2,12 @@ import { HeartStraight, ShoppingCart, User } from "phosphor-react";
 
 const logo = "../../public/assets/green.png";
 
+
+
+
+
+
+
 export const Header = () => {
   return (
     <header className="header-class">
@@ -16,9 +22,10 @@ export const Header = () => {
       </div>
 
       <div id="shop-div">
-        <User fontSize={35} />
-        <ShoppingCart  fontSize={35} />
-        <HeartStraight  fontSize={35} />
+        
+        <User fontSize={30} />
+        <ShoppingCart  fontSize={30} />
+        <HeartStraight  fontSize={30} />
       </div>
     </header>
   );

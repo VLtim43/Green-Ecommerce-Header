@@ -1,15 +1,42 @@
-import { Header } from "../components/Header"
+import React, { ReactNode } from "react";
 
-export const SectionHeader = () => {
-  return (
-    <section id="header">
-      <Header />
-      
-     {/*  <video autoPlay muted loop id="myVideo">
-       <source src="../public/assets/hd.mp4" type="video/mp4" />
-      </video> */}
+interface Props {
+  children?: ReactNode
+  rotation?: any
+  timing?: any
 
-
-    </section>
-  )
 }
+
+ const Boop = ({ rotation = 0, timing = 150, children }: Props) => {
+  const [isBooped, setIsBooped] = React.useState(false);
+  const style = {
+    display: 'inline-block',
+    backfaceVisibility: 'hidden',
+    transform: isBooped
+      ? `rotate(${rotation}deg)`
+      : `rotate(0deg)`,
+    transition: `transform ${timing}ms`,
+  };
+  React.useEffect(() => {
+    if (!isBooped) {
+      return;
+    }
+    const timeoutId = window.setTimeout(() => {
+      setIsBooped(false);
+    }, timing);
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [isBooped, timing]);
+  const trigger = () => {
+    setIsBooped(true);
+  };
+
+  return (
+    <span onMouseEnter={trigger} style={style}>
+      {children}
+    </span>
+  );
+};
+
+export default Boop
