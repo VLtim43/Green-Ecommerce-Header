@@ -1,6 +1,11 @@
 
 @import "variables";
+
+//components
 @import "components/headers" ;
+
+//sections
+@import "sections/sectionHeader";
 
 body {
     background-color: $white-green;

@@ -8,12 +8,13 @@
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
   width: 100%;
+  padding: 0.5rem 0rem;
   height: 3rem;
   font-family: "Gentium Book Plus", serif;
   justify-content: space-between;
 }
 .header-class img {
-  height: 7rem;
+  height: 8rem;
 }
 .header-class #shop-div {
   padding: 0rem 1rem;
@@ -22,12 +23,8 @@
   justify-content: center;
 }
 .header-class #shop-div svg {
-  padding: 0rem 0.5rem;
-}
-.header-class #shop-div svg:hover {
-  transition: 1000ms;
-  color: rgb(157, 157, 157);
   cursor: pointer;
+  padding: 0rem 0.5rem;
 }
 .header-class #mock {
   visibility: hidden;
@@ -35,6 +32,33 @@
 }
 .header-class #mock svg {
   padding: 0rem 0.5rem;
+}
+
+#initial {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+#initial svg {
+  display: none;
+}
+#initial img {
+  height: 20rem;
+  border: 1px solid rgb(27, 27, 27);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(27, 27, 27);
+  opacity: 0.7;
+}
+
+#sticky {
+  position: fixed;
+}
+
+section video {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
 body {
