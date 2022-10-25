@@ -1,0 +1,15 @@
+
+@import "variables";
+@import "components/headers" ;
+
+body {
+    background-color: $white-green;
+    height: 2000px;
+
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: large;
+}
+

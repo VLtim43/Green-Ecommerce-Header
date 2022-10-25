@@ -1,0 +1,48 @@
+@import url("/src/scss/_variables.scss");
+
+.header-class {
+    @include display;
+    @include prevent-selection;
+
+    height: 3rem;
+    font-family: 'Gentium Book Plus', serif;
+    justify-content: space-between;
+
+    img {
+        height: 7rem;
+    }
+    
+    #shop-div {
+        padding: 0rem 2rem;
+        @include display;
+        background-color: red;
+
+        svg {
+            padding: 0rem 0.5rem;
+        }
+
+        svg:hover {
+            color: black;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #mock {
+        visibility: hidden;
+        padding: 0rem 2rem;
+        svg {
+            padding: 0rem 0.5rem;
+        }
+    }
+
+}
