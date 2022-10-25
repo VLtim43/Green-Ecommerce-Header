@@ -33,11 +33,11 @@ export const Header = () => {
         </Boop>
 
         <Boop rotation={20} timing={200}>
-          <HeartStraight fontSize={30} />
+          <HeartStraight fontSize={30}  />
         </Boop>
 
         <Boop rotation={20} timing={200}>
-          <ShoppingCart fontSize={30} />
+          <ShoppingCart fontSize={30} weight="fill" />
         </Boop>
       </div>
     </header>
