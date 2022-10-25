@@ -1,11 +1,14 @@
-section {
+#header-section {
+   align-items: center;
+   justify-content: center;
+   display: flex ;
+   height: 100vh;
 
-  
-
-
+   
    video {
-    width: 100%;
-    position:absolute;
-    z-index:0;
+      width: 100%;
+     
+      position: absolute;
+      z-index: 0;
    }
 }

@@ -5,15 +5,12 @@
     @include prevent-selection;
 
     width: 100%;
-    padding: 0.5rem 0rem;
+    padding: 1.5rem 0rem;
     height: 3rem;
     font-family: 'Gentium Book Plus',
         serif;
     justify-content: space-between;
 
-    img {
-        height: 8rem;
-    }
 
     #shop-div {
         padding: 0rem 1rem;
@@ -28,11 +25,14 @@
 
     #mock {
         visibility: hidden;
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
+        @include display;
 
         svg {
+            cursor: pointer;
             padding: 0rem 0.5rem;
         }
+
     }
 
 }
@@ -41,25 +41,21 @@
 #initial {
     position: absolute;
     z-index: 1;
-    height: 100%;
 
     svg {
         display: none;
     }
 
     img {
-        height: 20rem;
-
-        border: 1px solid rgb(27, 27, 27);
-        border-radius: 10px;
-        padding: 10px;
-       
-        background-color: rgb(27, 27, 27);
-        opacity: 0.7;
+        display: none;
     }
+
 }
 
 #sticky {
     position: fixed;
 
+    img {
+        height: 8rem;
+    }
 }

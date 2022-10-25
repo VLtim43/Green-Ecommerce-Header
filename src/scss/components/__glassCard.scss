@@ -1,0 +1,21 @@
+   .glassCard {
+       display: inline-block;
+       padding: 4vw 6vw;
+       background: #1a1b2166;
+       border-radius: 10px;
+       z-index: 1;
+       position: relative;
+       backdrop-filter: blur(10px);
+       background-clip: border-box;
+
+
+       img {
+           height: 15vw;
+
+
+       }
+
+
+
+
+   }
