@@ -3,14 +3,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none; /* Standard syntax */
+  height: 3rem;
+  font-family: "Gentium Book Plus", serif;
+  justify-content: space-between;
+}
+.header-class img {
+  height: 7rem;
+}
+.header-class #shop-div {
+  padding: 0rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.header-class #shop-div svg {
+  padding: 0rem 0.5rem;
+}
+.header-class #shop-div svg:hover {
+  color: black;
+}
+.header-class #mock {
+  visibility: hidden;
+  padding: 0rem 2rem;
+}
+.header-class #mock svg {
+  padding: 0rem 0.5rem;
 }
 
-* {
-  font-family: "David Libre", serif;
+body {
+  background-color: #9ccc9c;
+  height: 2000px;
   font-weight: 500;
   margin: 0;
   padding: 0;
   color: #ffffff;
   font-size: large;
-  background-color: #9ccc9c;
 }/*# sourceMappingURL=global.css.map */

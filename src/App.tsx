@@ -1,13 +1,9 @@
-import { Header } from "./components/Header";
+import { SectionHeader } from "./fragments/SectionHeader";
 
 function App() {
   return (
-   <section id="header">
-      <Header/>
-
-
-   </section>
+    <SectionHeader/>
   );
-}
+};
 
 export default App;
