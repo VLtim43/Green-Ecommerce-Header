@@ -1,3 +1,5 @@
+   @import "../variables";
+   
    .glassCard {
        display: inline-block;
        padding: 4vw 6vw;
@@ -5,10 +7,16 @@
        border-radius: 10px;
        z-index: 2;
        position: relative;
-       backdrop-filter: blur(5px);
+       backdrop-filter: blur(3px);
        background-clip: border-box;
-
+        
+        margin-top: 15%;
        box-shadow: 0 1px 25px 0 darken( #1a1b2166 ,  10);
+
+
+       @media screen and (max-width: $mobile-screen) {
+        display: none;
+      }
 
 
        img {

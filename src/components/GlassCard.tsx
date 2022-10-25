@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import profile from "../../public/assets/green.png";
+import logo from "../../public/assets/green.png";
 import { useSpring, animated, config } from "react-spring";
 
 const calc = (x, y) => [
@@ -25,7 +25,7 @@ const GlassCard = () => {
         transform: props.xys.interpolate(trans),
       }}
     >
-      <img src={profile} />
+      <img src={logo} />
       <span></span>
     </animated.div>
   );

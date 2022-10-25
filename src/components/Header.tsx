@@ -24,7 +24,7 @@ export const Header = () => {
       </div>
 
       <div id="logo-div">
-        <img src={logo} />
+        <img src="../../public/assets/green.png" />
       </div>
 
       <div id="shop-div">
@@ -37,9 +37,10 @@ export const Header = () => {
         </Boop>
 
         <Boop rotation={20} timing={200}>
-          <ShoppingCart fontSize={30} weight="fill" />
+          <ShoppingCart fontSize={30} />
         </Boop>
       </div>
+      
     </header>
   );
 };

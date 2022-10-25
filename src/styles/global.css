@@ -13,6 +13,15 @@
   font-family: "Gentium Book Plus", serif;
   justify-content: space-between;
 }
+.header-class img {
+  height: 8rem;
+  padding: 0rem 3rem;
+}
+@media screen and (max-width: 700px) {
+  .header-class img {
+    display: none;
+  }
+}
 .header-class #shop-div {
   padding: 0rem 3rem;
   display: flex;
@@ -22,6 +31,11 @@
 .header-class #shop-div svg {
   cursor: pointer;
   padding: 0rem 0.5rem;
+}
+@media screen and (max-width: 700px) {
+  .header-class #shop-div {
+    padding: 0rem 1rem;
+  }
 }
 .header-class #mock {
   visibility: hidden;
@@ -43,6 +57,16 @@
 #initial {
   display: none;
 }
+@media screen and (max-width: 700px) {
+  #initial {
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    z-index: 2;
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+}
 
 #sticky {
   position: fixed;
@@ -52,13 +76,12 @@
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
-#sticky img {
-  height: 8rem;
-  padding: 0rem 3rem;
-}
 @media screen and (max-width: 700px) {
-  #sticky img {
-    display: none;
+  #sticky {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+    box-shadow: none;
   }
 }
 
@@ -69,10 +92,16 @@
   border-radius: 10px;
   z-index: 2;
   position: relative;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   background-clip: border-box;
+  margin-top: 15%;
   box-shadow: 0 1px 25px 0 rgba(4, 4, 4, 0.4);
+}
+@media screen and (max-width: 700px) {
+  .glassCard {
+    display: none;
+  }
 }
 .glassCard img {
   height: 15vw;
@@ -81,10 +110,9 @@
 .socials {
   display: flex;
   justify-content: end;
-  height: 100%;
   width: 100%;
+  top: 0;
   position: absolute;
-  z-index: 1;
 }
 .socials nav {
   padding-top: 0.5rem;
@@ -99,9 +127,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
 }
 #header-section-child video {
+  top: 0;
   width: 100%;
   position: absolute;
   z-index: 0;

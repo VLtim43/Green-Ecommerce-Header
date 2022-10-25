@@ -1,10 +1,9 @@
-import { HeartStraight, ShoppingCart, User } from "phosphor-react";
 import { Header } from "../components/Header";
 import { Socials } from "../components/Socials";
 
-import GlassCard from "../utils/GlassCard";
+import GlassCard from "../components/GlassCard";
 
-import logo from "../../public/assets/green.png";
+import video from "../../public/assets/hd2.mp4";
 
 export const SectionHeader = () => {
   return (
@@ -12,11 +11,10 @@ export const SectionHeader = () => {
       <Header />
       <section id="header-section-child">
         <video autoPlay muted loop id="myVideo">
-          <source src="../public/assets/hd2.mp4" type="video/mp4" />
+          <source src={video} type="video/mp4" />
         </video>
 
         <GlassCard />
-
         <Socials/>
       </section>
     </section>
