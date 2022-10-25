@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    nav {
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+
+        svg {
+            color: rgba(225, 222, 222, 0.381)
+        }
+    }
+
+
+}

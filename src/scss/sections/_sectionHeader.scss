@@ -1,7 +1,10 @@
-#header-section {
-   align-items: center;
-   justify-content: center;
-   display: flex ;
+
+
+@import "../variables";
+
+#header-section-child {
+   @include display;
+   flex-direction: column;
    height: 100vh;
 
    

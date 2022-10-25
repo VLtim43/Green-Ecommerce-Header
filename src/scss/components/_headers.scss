@@ -6,7 +6,7 @@
 
     width: 100%;
     padding: 1.5rem 0rem;
-    height: 3rem;
+    height: 2rem;
     font-family: 'Gentium Book Plus',
         serif;
     justify-content: space-between;
@@ -39,16 +39,7 @@
 
 
 #initial {
-    position: absolute;
-    z-index: 1;
-
-    svg {
-        display: none;
-    }
-
-    img {
-        display: none;
-    }
+    display: none;
 
 }
 
