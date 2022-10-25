@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 .header-class #shop-div {
-  padding: 0rem 1rem;
+  padding: 0rem 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
 }
 .header-class #mock {
   visibility: hidden;
-  padding: 0rem 1rem;
+  padding: 0rem 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +48,11 @@
 
 #sticky {
   position: fixed;
+  background: rgba(201, 255, 201, 0.35);
+  /* background: darken( $white-green ,  10); */
+  box-shadow: 0 1px 25px 0 #7abb7a;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
 }
 #sticky img {
   height: 8rem;
@@ -60,9 +65,10 @@
   border-radius: 10px;
   z-index: 1;
   position: relative;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   background-clip: border-box;
+  box-shadow: 0 1px 25px 0 rgba(4, 4, 4, 0.4);
 }
 .glassCard img {
   height: 15vw;

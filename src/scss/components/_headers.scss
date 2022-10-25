@@ -13,7 +13,7 @@
 
 
     #shop-div {
-        padding: 0rem 1rem;
+        padding: 0rem 3rem;
         @include display;
 
         svg {
@@ -25,7 +25,7 @@
 
     #mock {
         visibility: hidden;
-        padding: 0rem 1rem;
+        padding: 0rem 3rem;
         @include display;
 
         svg {
@@ -54,6 +54,13 @@
 
 #sticky {
     position: fixed;
+
+    background: rgba( 201, 255, 201, 0.35 );
+    /* background: darken( $white-green ,  10); */
+    box-shadow: 0 1px 25px 0 darken( $white-green ,  10);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+   
 
     img {
         height: 8rem;

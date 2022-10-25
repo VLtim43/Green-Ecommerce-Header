@@ -1,8 +1,6 @@
 // @ts-nocheck
 
-import React from "react";
 import profile from "../../public/assets/green.png";
-import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 
 const calc = (x, y) => [

@@ -5,14 +5,14 @@
        border-radius: 10px;
        z-index: 1;
        position: relative;
-       backdrop-filter: blur(10px);
+       backdrop-filter: blur(5px);
        background-clip: border-box;
+
+       box-shadow: 0 1px 25px 0 darken( #1a1b2166 ,  10);
 
 
        img {
            height: 15vw;
-
-
        }
 
 
