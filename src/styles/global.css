@@ -41,7 +41,7 @@
 
 #sticky {
   position: fixed;
-  background: rgba(201, 255, 201, 0.35);
+  background: rgba(179, 214, 179, 0.211);
   /* background: darken( $white-green ,  10); */
   box-shadow: 0 1px 25px 0 #7abb7a;
   backdrop-filter: blur(7px);
