@@ -4,45 +4,74 @@
     @include display;
     @include prevent-selection;
 
-    height: 3rem;
-    font-family: 'Gentium Book Plus', serif;
+    width: 100%;
+    padding: 1.5rem 0rem;
+    height: 2rem;
+    font-family: 'Gentium Book Plus',
+        serif;
     justify-content: space-between;
 
-    img {
-        height: 7rem;
-    }
-    
+
     #shop-div {
-        padding: 0rem 2rem;
+        padding: 0rem 3rem;
         @include display;
-        background-color: red;
 
         svg {
+            cursor: pointer;
             padding: 0rem 0.5rem;
         }
 
-        svg:hover {
-            color: black;
+
+        @media screen and (max-width: $mobile-screen)  {
+           
         }
+        
+
     }
-
-
-
-
-
-
-
-
-
-
-
 
     #mock {
         visibility: hidden;
-        padding: 0rem 2rem;
+        padding: 0rem 3rem;
+        @include display;
+
         svg {
+            cursor: pointer;
             padding: 0rem 0.5rem;
         }
+
+
+        @media screen and (max-width: $small-screen) {
+            display: none;
+        }
+
+        
+
     }
 
+}
+
+
+#initial {
+    display: none;
+
+}
+
+#sticky {
+    position: fixed;
+
+    background: rgba(179, 214, 179, 0.211);
+    /* background: darken( $white-green ,  10); */
+    box-shadow: 0 1px 25px 0 darken( $white-green ,  10);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+   
+
+    img {
+        height: 8rem;
+        padding: 0rem 3rem;
+
+        @media screen and (max-width: $mobile-screen) {
+            display: none;
+        }
+    }
 }

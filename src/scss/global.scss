@@ -1,6 +1,18 @@
 
 @import "variables";
+
+//components
 @import "components/headers" ;
+@import "components/glassCard";
+@import "components/socials";
+
+//sections
+@import "sections/sectionHeader";
+
+
+#root {
+    height: 100%;
+}
 
 body {
     background-color: $white-green;

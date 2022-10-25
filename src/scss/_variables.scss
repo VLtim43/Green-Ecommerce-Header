@@ -1,5 +1,14 @@
  $white-green: #9ccc9c;
 
+
+ $small-screen: 1070px;
+ $mobile-screen: 700px;
+
+
+
+
+
+ //mixins
  @mixin display {
    display: flex;
    align-items:center;

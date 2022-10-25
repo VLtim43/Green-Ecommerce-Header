@@ -7,32 +7,108 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
-  height: 3rem;
+  width: 100%;
+  padding: 1.5rem 0rem;
+  height: 2rem;
   font-family: "Gentium Book Plus", serif;
   justify-content: space-between;
 }
-.header-class img {
-  height: 7rem;
-}
 .header-class #shop-div {
-  padding: 0rem 2rem;
+  padding: 0rem 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }
 .header-class #shop-div svg {
+  cursor: pointer;
   padding: 0rem 0.5rem;
-}
-.header-class #shop-div svg:hover {
-  color: black;
 }
 .header-class #mock {
   visibility: hidden;
-  padding: 0rem 2rem;
+  padding: 0rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header-class #mock svg {
+  cursor: pointer;
   padding: 0rem 0.5rem;
+}
+@media screen and (max-width: 1070px) {
+  .header-class #mock {
+    display: none;
+  }
+}
+
+#initial {
+  display: none;
+}
+
+#sticky {
+  position: fixed;
+  background: rgba(179, 214, 179, 0.211);
+  /* background: darken( $white-green ,  10); */
+  box-shadow: 0 1px 25px 0 #7abb7a;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+#sticky img {
+  height: 8rem;
+  padding: 0rem 3rem;
+}
+@media screen and (max-width: 700px) {
+  #sticky img {
+    display: none;
+  }
+}
+
+.glassCard {
+  display: inline-block;
+  padding: 4vw 6vw;
+  background: rgba(26, 27, 33, 0.4);
+  border-radius: 10px;
+  z-index: 2;
+  position: relative;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-clip: border-box;
+  box-shadow: 0 1px 25px 0 rgba(4, 4, 4, 0.4);
+}
+.glassCard img {
+  height: 15vw;
+}
+
+.socials {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.socials nav {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+.socials nav svg {
+  color: rgba(225, 222, 222, 0.381);
+}
+
+#header-section-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#header-section-child video {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+#root {
+  height: 100%;
 }
 
 body {

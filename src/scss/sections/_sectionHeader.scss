@@ -1,0 +1,17 @@
+
+
+@import "../variables";
+
+#header-section-child {
+   @include display;
+   flex-direction: column;
+   height: 100vh;
+
+   
+   video {
+      width: 100%;
+     
+      position: absolute;
+      z-index: 0;
+   }
+}
