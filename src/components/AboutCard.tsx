@@ -8,14 +8,12 @@ interface Props {
 
 const AboutCard = ({ Icon, Title }: Props) => {
   return (
-    <div className="about-card-div">
-      {Icon}
-      <h3>{Title}</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-        voluptatibus non, laborum dignissimos 
-      </p>
-    </div>
+    <div className='card'>
+      <div className='info'>
+        <h1 className='title'>Title</h1>
+        <p className='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit </p>
+      </div>
+  </div>
   );
 };
 
