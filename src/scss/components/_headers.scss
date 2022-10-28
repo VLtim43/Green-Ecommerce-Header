@@ -67,6 +67,7 @@
         display: flex;
         position: fixed;
         background-color: transparent;
+        z-index: 2;
         backdrop-filter: blur(3px);
         
     }
@@ -78,8 +79,6 @@
     background: rgba(112, 140, 112, 0.668);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
-    z-index: 3;
-
 
     @media screen and (max-width: $mobile-screen) {
 
