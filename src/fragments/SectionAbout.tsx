@@ -9,6 +9,8 @@ export const SectionAbout = () => {
         <AboutCard Icon={<Flask size={80} />} Title={"Lab Tested"} id={"lab"} />
         <AboutCard Icon={<Cat size={80} />} Title={"Cruelty Free"} id={"animal"} />
       </div>
+
+      <h2 id="text">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
     </section>
   );
 };

@@ -167,9 +167,11 @@
   /* background-color: lighten($white-green, 10); */
   background-image: url("/public/assets/pngleaf.png");
   background-size: cover;
+  background-color: #beddbe;
   height: 40rem;
   overflow: hidden;
   padding-bottom: 10rem;
+  display: block;
 }
 #about-section div {
   display: flex;
@@ -184,7 +186,6 @@
   grid-template-columns: 23% 23% 23%;
   gap: 1rem;
 }
-
 #root {
   height: 100%;
 }

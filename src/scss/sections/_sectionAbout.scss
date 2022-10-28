@@ -5,9 +5,11 @@
     /* background-color: lighten($white-green, 10); */
     background-image: url("/public/assets/pngleaf.png");
     background-size: cover;
+    background-color: lighten($white-green, $amount: 10);
     height: 40rem;
     overflow: hidden;
     padding-bottom: 10rem;
+    display: block;
 
     div {
         @include display;
@@ -22,5 +24,8 @@
         grid-template-columns: 23% 23% 23%;
         gap: 1rem;
 
+    }
+
+    #text {
     }
 }
