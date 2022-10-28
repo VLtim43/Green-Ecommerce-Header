@@ -40,7 +40,7 @@
 
     #mock {
         visibility: hidden;
-        padding: 0rem 3rem;
+        padding: 0rem 2rem;
         @include display;
 
         svg {
@@ -76,14 +76,12 @@
 
 #sticky {
     position: fixed;
-    background: rgba(179, 214, 179, 0.211);
-    /* background: darken( $white-green ,  10); */
-    box-shadow: 0 1px 25px 0 darken($white-green, 10);
+    background: rgba(112, 140, 112, 0.668);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
 
     @media screen and (max-width: $mobile-screen) {
-        background-color: transparent;
+
         backdrop-filter: blur(3px);
         box-shadow: none;
     }

@@ -1,0 +1,25 @@
+@import "../variables";
+
+#about-section {
+
+    background-color: lighten($white-green, 10);
+    height: 55rem;
+    overflow: hidden;
+
+    div {
+        @include display;
+        margin-top: 15%;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+    #row-div {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 1rem;
+
+    }
+}

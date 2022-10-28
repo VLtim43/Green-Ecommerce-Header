@@ -39,7 +39,7 @@
 }
 .header-class #mock {
   visibility: hidden;
-  padding: 0rem 3rem;
+  padding: 0rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,15 +70,12 @@
 
 #sticky {
   position: fixed;
-  background: rgba(179, 214, 179, 0.211);
-  /* background: darken( $white-green ,  10); */
-  box-shadow: 0 1px 25px 0 #7abb7a;
+  background: rgba(112, 140, 112, 0.668);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
 @media screen and (max-width: 700px) {
   #sticky {
-    background-color: transparent;
     -webkit-backdrop-filter: blur(3px);
             backdrop-filter: blur(3px);
     box-shadow: none;
@@ -122,6 +119,12 @@
   color: rgba(225, 222, 222, 0.381);
 }
 
+.about-card-div {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
 #header-section-child {
   display: flex;
   align-items: center;
@@ -133,6 +136,25 @@
   width: 100%;
   position: absolute;
   z-index: 0;
+}
+
+#about-section {
+  background-color: #beddbe;
+  height: 55rem;
+  overflow: hidden;
+}
+#about-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  width: 100%;
+  height: 100%;
+}
+#about-section #row-div {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 1rem;
 }
 
 #root {
