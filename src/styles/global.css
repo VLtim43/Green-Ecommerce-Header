@@ -122,7 +122,17 @@
 .about-card-div {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  text-align: center;
+  transform: translateY(-6rem);
+  font-family: "Merriweather", serif;
+  max-height: 25rem;
+}
+.about-card-div svg {
+  padding: 0.7rem;
+  border-radius: 50%;
+  background: rgb(156, 204, 156);
+  background: linear-gradient(248deg, rgb(156, 204, 156) 0%, rgb(247, 247, 247) 98%);
+  color: rgb(117, 156, 117);
 }
 
 #header-section-child {
