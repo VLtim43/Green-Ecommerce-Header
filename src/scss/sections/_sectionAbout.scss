@@ -2,10 +2,12 @@
 
 #about-section {
 
-    background-color: lighten($white-green, 10);
-    height: 55rem;
+    /* background-color: lighten($white-green, 10); */
+    background-image: url("/public/assets/pngleaf.png");
+    background-size: cover;
+    height: 40rem;
     overflow: hidden;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
 
     div {
         @include display;
@@ -17,7 +19,7 @@
 
     #row-div {
         display: grid;
-        grid-template-columns: 25% 25% 25%;
+        grid-template-columns: 23% 23% 23%;
         gap: 1rem;
 
     }

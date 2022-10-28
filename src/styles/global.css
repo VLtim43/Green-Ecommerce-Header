@@ -139,6 +139,16 @@
   background: linear-gradient(248deg, rgb(156, 204, 156) 0%, rgb(247, 247, 247) 98%);
   color: rgb(117, 156, 117);
 }
+.about-card h2 {
+  margin: 1rem 0rem 0rem 0rem;
+}
+.about-card p {
+  font-family: inter;
+  font-weight: 400;
+  color: gray;
+  max-width: 80%;
+  font-size: 1rem;
+}
 
 #header-section-child {
   display: flex;
@@ -154,10 +164,12 @@
 }
 
 #about-section {
-  background-color: #beddbe;
-  height: 55rem;
+  /* background-color: lighten($white-green, 10); */
+  background-image: url("/public/assets/pngleaf.png");
+  background-size: cover;
+  height: 40rem;
   overflow: hidden;
-  padding-bottom: 7rem;
+  padding-bottom: 10rem;
 }
 #about-section div {
   display: flex;
@@ -169,7 +181,7 @@
 }
 #about-section #row-div {
   display: grid;
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 23% 23% 23%;
   gap: 1rem;
 }
 

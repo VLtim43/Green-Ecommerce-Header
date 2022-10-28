@@ -1,6 +1,7 @@
 @import "../variables";
 
 .about-card {
+
     display: flex;
     font-family: 'Merriweather', serif;
     height: 22rem !important;
@@ -27,7 +28,23 @@
 
     }
 
+    h2 {
+      
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+
+    p {
+        font-family: inter;
+        font-weight: 400;
+        color: gray;
+        max-width: 80%;
+        font-size: 1rem;
+
+    }
+
 
 
 
 }
+
