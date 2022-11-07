@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HeartStraight, ShoppingCart, User } from "phosphor-react";
 
-const logo = "../../public/assets/green.png";
+const logo = "/assets/green.png";
 import Boop from "../utils/Boop"; //spring animation
 
 export const Header = () => {
@@ -33,13 +33,14 @@ export const Header = () => {
         </Boop>
 
         <Boop rotation={20} timing={200}>
-          <HeartStraight fontSize={30} />
+          <HeartStraight fontSize={30}  />
         </Boop>
 
         <Boop rotation={20} timing={200}>
           <ShoppingCart fontSize={30} />
         </Boop>
       </div>
+       
     </header>
   );
 };

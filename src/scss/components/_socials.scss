@@ -1,0 +1,23 @@
+@import "../variables";
+.socials {
+    display: flex;
+    justify-content: end;
+   
+    width: 100%;
+    top: 0;
+    position: absolute;
+    
+
+  
+
+    nav {
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+
+        svg {
+            color: rgba(225, 222, 222, 0.381)
+        }
+    }
+
+
+}

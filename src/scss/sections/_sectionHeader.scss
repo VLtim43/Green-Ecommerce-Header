@@ -1,11 +1,17 @@
-section {
+@import "../variables";
 
-  
+
+#header-section-child {
+   @include display;
+   flex-direction: column;
 
 
    video {
-    width: 100%;
-    position:absolute;
-    z-index:0;
+      top: 0;
+      width: 100%;
+
+      position: absolute;
+      z-index: 0;
+
    }
 }

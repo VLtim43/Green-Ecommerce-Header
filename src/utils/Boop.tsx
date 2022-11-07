@@ -37,6 +37,8 @@ const Boop = ({ rotation = 0, timing = 150, children }: Props) => {
   };
 
   return (
+ 
+    // @ts-ignore: Unreachable code error
     <animated.span onMouseEnter={trigger} style={style}>
       {children}
     </animated.span>

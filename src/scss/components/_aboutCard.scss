@@ -1,0 +1,50 @@
+@import "../variables";
+
+.about-card {
+
+    display: flex;
+    font-family: 'Merriweather', serif;
+    height: 22rem !important;
+    flex-direction: column;
+    text-align: center;
+
+    border-radius: 16px;
+    margin: 0 auto;
+    /*  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.12); */
+
+
+
+
+    svg {
+        cursor: pointer;
+        padding: 0.7rem;
+        border-radius: 50%;
+
+        background: rgb(156, 204, 156);
+        background: linear-gradient(248deg, rgba(156, 204, 156, 1) 0%, rgba(247, 247, 247, 1) 98%);
+        color: rgb(117, 156, 117);
+
+    }
+
+    h2 {
+      
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+
+    p {
+        font-family: inter;
+        font-weight: 400;
+        color: gray;
+        max-width: 80%;
+        font-size: 1rem;
+
+    }
+
+
+
+
+}
+

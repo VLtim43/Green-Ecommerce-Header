@@ -3,9 +3,19 @@
 
 //components
 @import "components/headers" ;
+@import "components/glassCard";
+@import "components/socials";
+@import "components/aboutCard";
 
 //sections
 @import "sections/sectionHeader";
+@import "sections/sectionAbout";
+
+
+
+#root {
+    height: 100%;
+}
 
 body {
     background-color: $white-green;
