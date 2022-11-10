@@ -1,49 +1,42 @@
 @import "../variables";
 
 
-#footer-section {
+footer {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-starts;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
 
-        height: 500px;
-
-        background-image: url("../../../public/adobe/1000_F_216613855_khO3DLXshZ3ANkdIWE2usSnKSYCENcXx.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+.main-footer {
 
 
-        /*  h2 {
-            padding-top: 1rem;
-            font-family: inter; 
-            font-size: 1.2rem;
-            color: rgb(80, 78, 78);
-            font-weight: 400;
-            width: 100%;
-            display:flex ;
-            
-            justify-content: center;
-        } */
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
 
-        #logo-div {
+    height: 500px;
 
-            background-color: rgba(26, 26, 26, 0.301);
+    background-image: url("../../../public/adobe/1000_F_216613855_khO3DLXshZ3ANkdIWE2usSnKSYCENcXx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-            img {
-                height: 100%;
-            }
+
+
+
+    #logo-div {
+
+        background-color: rgba(26, 26, 26, 0.301);
+
+        img {
+            height: 100%;
         }
-
-
     }
-
-
 
     .SeparatorRoot[data-orientation='vertical'] {
         background-color: rgba(221, 212, 212, 0.747);
@@ -53,7 +46,6 @@
         height: 70%;
         width: 2px;
     }
-
 
 
 }

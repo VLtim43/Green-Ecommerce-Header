@@ -6,17 +6,19 @@ export const SectionFooter = () => {
   return (
     <section id="footer-section">
       <footer>
-        {/*  <h2 className="copyright">2022 - Fernando Valentim</h2> */}
-        <div id="logo-div">
-          <img src={logo} />
+        <div className="main-footer">
+          <div id="logo-div">
+            <img src={logo} />
+          </div>
+
+          <Separator.Root
+            className="SeparatorRoot"
+            decorative
+            orientation="vertical"
+          />
         </div>
-        
-        <Separator.Root
-          className="SeparatorRoot"
-          decorative
-          orientation="vertical"
-        />
-        
+
+        <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
       </footer>
     </section>
   );
