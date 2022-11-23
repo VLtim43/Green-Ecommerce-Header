@@ -18,7 +18,7 @@ export const SectionFooter = () => {
           />
         </div>
 
-        <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+        <h3 className="copyright">© 2022 Fernando - All rights reserved. </h3>
       </footer>
     </section>
   );
