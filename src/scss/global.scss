@@ -9,18 +9,17 @@
 
 //sections
 @import "sections/sectionHeader";
-@import "sections/sectionAbout";
-
-
+@import "sections/sectionFooter";
 
 #root {
     height: 100%;
 }
 
 body {
-    background-color: $white-green;
-    height: 2000px;
-
+    position: relative;
+  min-height: 100vh;
+    height: 4000px;
+    background-color: #131413;
     font-weight: 500;
     margin: 0;
     padding: 0;

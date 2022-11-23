@@ -70,7 +70,7 @@
 
 #sticky {
   position: fixed;
-  background: rgba(112, 140, 112, 0.668);
+  background: rgba(112, 140, 112, 0.082);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
@@ -135,7 +135,6 @@
   cursor: pointer;
   padding: 0.7rem;
   border-radius: 50%;
-  background: rgb(156, 204, 156);
   background: linear-gradient(248deg, rgb(156, 204, 156) 0%, rgb(247, 247, 247) 98%);
   color: rgb(117, 156, 117);
 }
@@ -163,36 +162,55 @@
   z-index: 0;
 }
 
-#about-section {
-  /* background-color: lighten($white-green, 10); */
-  background-image: url("/public/assets/pngleaf.png");
-  background-size: cover;
-  background-color: #beddbe;
-  height: 40rem;
-  overflow: hidden;
-  padding-bottom: 10rem;
-  display: block;
+footer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-#about-section div {
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  background-image: url("../../../public/adobe/1000_F_216613855_khO3DLXshZ3ANkdIWE2usSnKSYCENcXx.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-footer #logo-div {
+  background-color: rgba(26, 26, 26, 0.301);
+}
+.main-footer #logo-div img {
+  height: 100%;
+}
+.main-footer .SeparatorRoot[data-orientation=vertical] {
+  background-color: rgba(221, 212, 212, 0.747);
+  margin-top: 5rem;
+  height: 70%;
+  width: 2px;
+}
+
+.copyright {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inter;
+  font-weight: 100;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15%;
-  width: 100%;
-  height: 100%;
 }
-#about-section #row-div {
-  display: grid;
-  grid-template-columns: 23% 23% 23%;
-  gap: 1rem;
-}
+
 #root {
   height: 100%;
 }
 
 body {
-  background-color: #9ccc9c;
-  height: 2000px;
+  position: relative;
+  min-height: 100vh;
+  height: 4000px;
+  background-color: #131413;
   font-weight: 500;
   margin: 0;
   padding: 0;

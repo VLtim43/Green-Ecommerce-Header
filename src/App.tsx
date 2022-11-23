@@ -1,11 +1,12 @@
+import { SectionFooter } from "./fragments/SectionFooter";
 import { SectionHeader } from "./fragments/SectionHeader";
-import { SectionAbout } from "./fragments/SectionAbout";
 
 function App() {
   return (
     <>
-      <SectionHeader />
-      <SectionAbout />
+          <SectionHeader />
+
+      <SectionFooter />
     </>
   );
 }
