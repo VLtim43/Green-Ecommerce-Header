@@ -2,7 +2,7 @@
 
 
 footer {
-
+    font-family: inter;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -47,6 +47,34 @@ footer {
         width: 2px;
     }
 
+    #socials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        svg {
+            color: rgba(221, 212, 212, 0.747);
+            margin: 0.8rem 0.5rem;
+
+            &:hover {
+                color: rgba(245, 244, 244, 0.877);
+                transition: 0.9s;
+                cursor: pointer;
+              }
+
+        }
+    }
+
+    #teste{
+        display: flex ;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+       
+    }
+
 
 }
 
@@ -54,8 +82,8 @@ footer {
 .copyright {
     padding: 0.5rem;
     font-size: 1rem;
-    font-family: inter;
-    font-weight: 100;
+    font-weight: 400;
+    color: rgba(202, 199, 199, 0.705);
     display: flex;
     align-items: center;
     justify-content: center;
