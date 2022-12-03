@@ -38,20 +38,25 @@ export const SectionFooter = () => {
           </div>
 
           <div className="info-container">
-            <div className="info" id="partnership">
-              <h3>Oi</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            <nav className="info">
+              <ul>a</ul>
+              <ul>b</ul>
+              <ul>c</ul>
+            </nav>
 
-            <div className="info" id="partnership">
-              <h3>Oi</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            <nav className="info">
+              <ul>a</ul>
+              <ul>b</ul>
+              <ul>c</ul>
+            </nav>
 
-            <div className="info" id="partnership">
-              <h3>Oi</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            <nav className="info">
+              <ul>a</ul>
+              <ul>b</ul>
+              <ul>c</ul>
+            </nav>
+
+            
           </div>
         </div>
 
