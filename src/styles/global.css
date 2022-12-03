@@ -181,6 +181,7 @@ footer {
 }
 .main-footer #logo-div {
   background-color: rgba(26, 26, 26, 0.301);
+  margin-right: 20rem;
 }
 .main-footer #logo-div img {
   height: 100%;
@@ -206,21 +207,26 @@ footer {
   cursor: pointer;
 }
 .main-footer .info-container {
-  /*  display: flex ;
-  font-weight: 100;
-  font-size: smaller;
-  flex-direction: column;
-  align-items: center; */
   display: grid;
   grid-template-columns: auto auto auto;
+  padding: 10rem;
   width: 100%;
 }
-.main-footer .info-container .info {
+.main-footer .info-container nav {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  text-align: center;
+  justify-content: flex-start;
+}
+.main-footer .info-container nav ul {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 200;
+}
+.main-footer .info-container nav .title {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .copyright {

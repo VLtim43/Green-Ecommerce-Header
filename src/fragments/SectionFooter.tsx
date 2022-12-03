@@ -38,22 +38,23 @@ export const SectionFooter = () => {
           </div>
 
           <div className="info-container">
-            <nav className="info">
-              <ul>a</ul>
-              <ul>b</ul>
-              <ul>c</ul>
+            <nav>
+              <ul className="title">Partnership</ul>
+              <ul>Websites</ul>
+              <ul>Social Media</ul>
+              <ul>Branding</ul>
             </nav>
 
-            <nav className="info">
-              <ul>a</ul>
-              <ul>b</ul>
-              <ul>c</ul>
+            <nav>
+              <ul className="title">About</ul>
+              <ul>Our Projects</ul>
+              <ul>Careers</ul>
             </nav>
 
-            <nav className="info">
-              <ul>a</ul>
-              <ul>b</ul>
-              <ul>c</ul>
+            <nav>
+              <ul className="title">Suport</ul>
+              <ul>Suport Request</ul>
+              <ul>Contact</ul>
             </nav>
 
             
