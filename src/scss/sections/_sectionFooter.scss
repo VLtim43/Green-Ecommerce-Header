@@ -41,7 +41,6 @@ footer {
     }
 
     .SeparatorRoot[data-orientation='vertical'] {
-        margin-left: 10rem;
         background-color: rgba(221, 212, 212, 0.747);
 
         margin-top: 5rem;
@@ -111,4 +110,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media (max-width: 1700px) {
+  footer {
+    display: none;
+  }
 }
