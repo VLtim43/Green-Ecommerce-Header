@@ -4,7 +4,7 @@ import { SectionHeader } from "./fragments/SectionHeader";
 function App() {
   return (
     <>
-          <SectionHeader />
+      <SectionHeader />
 
       <SectionFooter />
     </>

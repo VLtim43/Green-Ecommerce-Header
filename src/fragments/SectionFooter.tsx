@@ -56,8 +56,6 @@ export const SectionFooter = () => {
               <ul>Suport Request</ul>
               <ul>Contact</ul>
             </nav>
-
-            
           </div>
         </div>
 

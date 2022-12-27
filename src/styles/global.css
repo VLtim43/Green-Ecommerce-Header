@@ -208,12 +208,12 @@ footer {
   cursor: pointer;
 }
 .main-footer .info-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .main-footer .info-container nav {
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
